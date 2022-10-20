@@ -1,0 +1,14 @@
+flickr:
+  api:
+    key: fd1e1b2e8a54cb4d1b7dd585853a1e0b
+    secret: e415764143dbc3e5
+
+feign:
+  url: https://www.flickr.com/services/feeds/photos_public.gne?format=json&tagmode=any
+  tags: cat,waterfall,japan,gundam
+
+logging:
+  level:
+    org.springframework.web: INFO
+    org.hibernate: INFO
+#    com.stori.flickr_feed.application.feign.FeedFeignClient: DEBUG
